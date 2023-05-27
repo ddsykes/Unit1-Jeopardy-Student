@@ -1,0 +1,13 @@
+.image, .game, p, div, title, button, footer{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-left: auto;
+margin-right: auto;
+width:px;
+}
+
+button:hover{
+   background-color:bisque;
+   color:white;
+}
