@@ -4,10 +4,15 @@ flex-direction: column;
 align-items: flex-start;
 margin-left: auto;
 margin-right: auto;
-width:px;
+width:none;
+background-color: gray;
 }
 
 button:hover{
    background-color:bisque;
    color:white;
+}
+
+.gray, footer{
+   background-color: gray;
 }
