@@ -15,4 +15,5 @@ button:hover{
 
 .gray, footer{
    background-color: gray;
+   padding: auto;
 }
