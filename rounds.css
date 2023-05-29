@@ -5,6 +5,7 @@
     margin-left: auto;
     margin-right: auto;
     width:px;
+    font-size: x-large;
     }
 
 .wrapper{
@@ -27,26 +28,43 @@
     }
 
     .container{
+        padding: 20px 0;
         margin: 75px 75px;
-        flex-direction: column;
-        flex-wrap: wrap;
-        grid-template: 2fr 20% 100px;
-        grid-template-columns: 2fr 50% 100px;
+        flex-direction:column;
+        /* flex-wrap: wrap; */
+        /* grid-template: 2fr 20% 100px; */
+        /* grid-template-columns: 2fr 50% 100px; */
         display:grid;
-        grid-template: repeat(4,25%) / repeat(3, 33.3%);
-        text-align: center;
-        grid-column: 1/ span 8;
-        border: 5px solid black;
+        grid-template-columns: 30px 200px auto 100px 30px 200px auto 100px;                        
+        /* grid-template: repeat(6,25%) / repeat(6, 33.3%); */
+        /* text-align: center; */
+        /* grid-column: 6 / span 8; */
+        border: 10px solid black;
         grid-column-start: 1;
-        grid-column-end: span 2;
-        grid-row-start: 2;
-        grid-row-end: span 2;
-        grid-area: 2/3/3/9;
+        /* grid-column-end: span 2; */
+        /* grid-row-start: 2; */
+        /* grid-row-end: span 2; */
+        /* grid-area: 2/3/3/9; */
+        grid-area: 6;
         align-self: center;
         justify-content: space-evenly;
         font-size: x-large;
     }
 
+
+
+    .container > div{
+        background-color:whitesmoke;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+
+
+        .nextround{
+            text-align: center;
+            float: left;
+        }
 
      /* .container{
         grid-template: 2fr 20% 100px;
@@ -149,5 +167,56 @@
         background: maroon;
     }
     .cell-16{
+        background: maroon;
+    }
+    .cell-17{
+        background: maroon;
+    }
+    .cell-18{
+        background: maroon;
+    }
+    .cell-19{
+        background: maroon;
+    }
+    .cell-20{
+        background: maroon;
+    }
+    .cell-21{
+        background: maroon;
+    }
+    .cell-22{
+        background: maroon;
+    }
+    .cell-23{
+        background: maroon;
+    }
+    .cell-24{
+        background: maroon;
+    }
+    .cell-25{
+        background: maroon;
+    }
+    .cell-26{
+        background: maroon;
+    }
+    .cell-27{
+        background: maroon;
+    }
+    .cell-28{
+        background: maroon;
+    }
+    .cell-29{
+        background: maroon;
+    }
+    .cell-30{
+        background: maroon;
+    }
+    .cell-31{
+        background: maroon;
+    }
+    .cell-32{
+        background: maroon;
+    }
+    .cell-33{
         background: maroon;
     }
