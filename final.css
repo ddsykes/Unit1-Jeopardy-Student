@@ -1,4 +1,4 @@
-.image, .game, p, div, title, button, footer{
+.image, .game, p, div, title, button, footer, form{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -17,4 +17,5 @@
        background-color:whitesmoke;
        padding: auto;
     }
+    
     
